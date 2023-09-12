@@ -28,7 +28,7 @@ Prismaの機能の1つで、DB操作をJavaScript/TypeScriptで実現する機�
 
 ***
 # 例
-例えば、以下の記述を実行する場合
+以下記述の実行を考える。
 ```javascript
  ...
 const prisma = new Prisma;
@@ -42,6 +42,5 @@ await prisma.users.create({
 2. ランタイムにより、`prisma.users.create()`がSQLに変換され、クエリエンジンに渡される。
 3. クエリエンジンにより、SQLクエリはDBに送信され、レスポンスを受け取る。
 4. クエリエンジンは、レスポンスをランタイムに渡し、その結果がコードとして表示される。
-
 
 
