@@ -1,5 +1,5 @@
 # 説明
-Prismaの機能の1つで、DB操作をJavaScript/TypeScriptで実現する機能。
+Prismaの機能の1つで、DB操作をJavaScript/TypeScriptで実現する。
 
 ローカル環境では、`npx prisma generate`でDB操作で使用するコードのライブラリを生成する。
 
